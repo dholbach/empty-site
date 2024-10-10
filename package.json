@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "hugo-installer": "^4.0.1"
+  },
+  "otherDependencies": {
+    "hugo": "0.135.0"
+  },
+  "overrides": {
+    "semver": "7.6.3"
+  },
+  "scripts": {
+    "postinstall": "hugo-installer --version otherDependencies.hugo --extended"
+  }
+}
