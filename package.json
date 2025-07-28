@@ -3,7 +3,7 @@
     "hugo-installer": "^4.0.1"
   },
   "otherDependencies": {
-    "hugo": "0.148.0"
+    "hugo": "0.148.2"
   },
   "overrides": {
     "semver": "7.6.3"
