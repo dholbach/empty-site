@@ -3,10 +3,12 @@
     "hugo-installer": "^4.0.1"
   },
   "otherDependencies": {
-    "hugo": "0.155.3"
+    "hugo": "0.157.0"
   },
   "overrides": {
-    "semver": "7.6.3"
+    "semver": "7.6.3",
+    "minimatch": "10.2.3",
+    "markdown-it": "14.1.1"
   },
   "scripts": {
     "postinstall": "hugo-installer --version otherDependencies.hugo --extended"
